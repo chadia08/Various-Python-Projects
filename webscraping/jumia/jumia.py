@@ -23,4 +23,4 @@ for page in range(1,15):
         columns['price'].append(price.text)
 
 
-pd.DataFrame(columns).to_csv('webscraping/jumia.csv')   
+pd.DataFrame(columns).to_csv('jumia/jumia.csv')   
